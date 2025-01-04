@@ -62,7 +62,7 @@
                     </div>
                 </div>
                 <div class="navbar-nav w-150">
-                    <a href="" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
+                    <a href="?home.php" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
                     <div class="nav-item dropdown">
                     </div>
                     <a href="?p=mhs" class="nav-item nav-link"><i class="bi bi-people-fill me-2 "></i>Mahasiswa</a>
@@ -71,12 +71,9 @@
                     <a href="?p=kategori" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Kategori</a>
                     <a href="?p=berita" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Berita</a>
                     <a href="?p=tambah_user" class="nav-item nav-link"><i class="far fa-file-alt me-2"></i>Tambah User</a>
+                    <a href="?p=mata_kuliah" class="nav-item nav-link"><i class="bi bi-collection-fill me-2"></i>Mata Kuliah</a>
                     <a href="../index.php" class="nav-item nav-link"><i class="far fa-file-alt me-2"></i>logout</a>
-                
-                
-                    
-
-                    
+ 
                    
                 </a>
             </div>
@@ -124,6 +121,8 @@
                     include 'berita.php';
                 if ($page == 'tambah_user')
                     include 'tambah_user.php';
+                if ($page == 'mata_kuliah')
+                    include 'mata_kuliah.php';
             ?>
 
             <div class="nav-item dropdown">

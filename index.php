@@ -58,6 +58,7 @@
           <li><a href="?p=kategori">Kategori</a></li>
           <li><a href="?p=berita">Berita</a></li>
           <li><a href="?p=tambah_user">Tambah User</a></li>
+          <li><a href="?p=mata_kuliah">Mata Kuliah</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -107,6 +108,8 @@
                     include 'berita.php';
                 if ($page == 'tambah_user')
                     include 'tambah_user.php';
+                if ($page == 'mata_kuliah')
+                    include 'mata_kuliah.php';
 
                 ?>
 
